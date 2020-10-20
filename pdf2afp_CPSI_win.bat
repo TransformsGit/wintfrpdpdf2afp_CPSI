@@ -27,14 +27,14 @@ echo ================================================
 
 echo ===============  CPSI Transform with default configuration =======================
 
-echo %submition_tool%\itm_driver.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files e:\OutputTransformPDF2AFP_CPSI\win\output\out_AFP\%%~pi\%%~ni.CPSI.afp" -s8012
-%submition_tool%\itm_driver.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files e:\OutputTransformPDF2AFP_CPSI\win\output\out_AFP\%%~pi\%%~ni.CPSI.afp" -s8012 
+echo %submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files e:\OutputTransformPDF2AFP_CPSI\win\output\out_AFP\%%~pi\%%~ni.CPSI.afp" -s8012
+%submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -itm_out_files e:\OutputTransformPDF2AFP_CPSI\win\output\out_AFP\%%~pi\%%~ni.CPSI.afp" -s8012 
 
 
 echo ===============  CPSI COLOR Transform with default configuration =======================
 
-echo %submition_tool%\itm_driver.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -a FS45 -itm_out_files e:\OutputTransformPDF2AFP_CPSI\win\output\out_AFP\%%~pi\%%~ni.CPSI.color.afp" -s8012
-%submition_tool%\itm_driver.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -a FS45 -itm_out_files e:\OutputTransformPDF2AFP_CPSI\win\output\out_AFP\%%~pi\%%~ni.CPSI.color.afp" -s8012 
+echo %submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -a FS45 -itm_out_files e:\OutputTransformPDF2AFP_CPSI\win\output\out_AFP\%%~pi\%%~ni.CPSI.color.afp" -s8012
+%submition_tool%\itm_driver_win.exe -S %itm_ipaddress% -P 6986 -F"-itm_in_files %%i -a FS45 -itm_out_files e:\OutputTransformPDF2AFP_CPSI\win\output\out_AFP\%%~pi\%%~ni.CPSI.color.afp" -s8012 
 
 
 echo ================================================
