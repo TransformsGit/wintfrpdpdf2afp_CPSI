@@ -2,7 +2,7 @@ echo off
 
 set gs="C:\Program Files\gs\gs9.27\bin\"
 echo %gs%
-set folderIN=e:\OutputTransformPDF2AFP_CPSI\win\output\output_PDF\TestFiles\
+set folderIN=e:\OutputTransformPDF2AFP_CPSI\win\output\out_PDF\TestFiles\
 echo %folderIN%
 
 for /R %folderIN% %%i in (*.pdf) do (
@@ -23,8 +23,8 @@ ECHO File extention is **************: fileextension=%%~xi
 
 echo ================================================
 
-echo Copy.... e:\OutputTransformPDF2AFP_CPSI\win\output\output_PDF\TestFiles\PDF\*.tif e:\OutputTransformPDF2AFP_CPSI\win\output\out_TIFF\MF\PDF\
-xcopy /y /s /d  e:\OutputTransformPDF2AFP_CPSI\win\output\output_PDF\TestFiles\PDF\*.tif e:\OutputTransformPDF2AFP_CPSI\win\output\out_TIFF\MF\PDF\ >> C:\Users\Administrator\Transforms\TestPDF2AFP_CPSI\Log\win\all_PDF2TIFF_itm-driveraaaa.log 2>&1
+echo Copy.... e:\OutputTransformPDF2AFP_CPSI\win\output\out_PDF\TestFiles\PDF\*.tif e:\OutputTransformPDF2AFP_CPSI\win\output\out_TIFF\MF\PDF\
+xcopy /y /s /d  e:\OutputTransformPDF2AFP_CPSI\win\output\out_PDF\TestFiles\PDF\*.tif e:\OutputTransformPDF2AFP_CPSI\win\output\out_TIFF\MF\PDF\ >> C:\Users\Administrator\Transforms\TestPDF2AFP_CPSI\Log\win\all_PDF2TIFF_itm-driveraaaa.log 2>&1
 
 
 echo EXIT
